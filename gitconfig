@@ -1,6 +1,13 @@
 [user]
 	email = 174931404+Nico-Bao@users.noreply.github.com
 	name = Nico-Bao
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF45RTZkmu/pEHCzF6cFjmDJpqLaEv/N160Uz3ARQ9iw
 [core]
 	# got asked to add this when doing a commit due to some separator issue
 	autocrlf = input 
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true

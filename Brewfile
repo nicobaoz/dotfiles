@@ -4,6 +4,8 @@ tap "mongodb/brew"
 brew "bat"
 # Modern, maintained replacement for ls
 brew "eza"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -16,25 +18,36 @@ brew "mas"
 brew "node"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # Allows connection to a computer remotely
 cask "anydesk"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Developer platform
 cask "dotnet-sdk"
 # HTTP and GraphQL Client
 cask "insomnia"
-# Software for Logitech devices
-cask "logitech-options"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
 # Clipboard manager
 cask "maccy"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # .NET IDE
 cask "rider"
+# Rust-based terminal
+cask "warp"
 mas "1Password for Safari", id: 1569813296
 mas "Accelerate", id: 1459809092
 mas "AdBlock", id: 1402042596
+mas "AusweisApp", id: 948660805
 mas "Battery Monitor", id: 836505650
 mas "Drafts", id: 1435957248
 mas "Eradicator", id: 1671150519
@@ -49,7 +62,6 @@ mas "Noir", id: 1592917505
 mas "PDF Reader Pro", id: 919472673
 mas "PubPeer", id: 1489865828
 mas "Reolink Client", id: 1086871235
-mas "Slack", id: 803453959
 mas "Super Agent", id: 1568262835
 mas "Telegram", id: 747648890
 mas "Vimlike", id: 1584519802
