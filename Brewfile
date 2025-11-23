@@ -14,7 +14,7 @@ brew "git"
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
@@ -53,6 +53,7 @@ mas "Drafts", id: 1435957248
 mas "Eradicator", id: 1671150519
 mas "Grammarly for Safari", id: 1462114288
 mas "Highlighter", id: 1385628859
+mas "Instapaper", id: 288545208
 mas "Keyword Search", id: 1558453954
 mas "LanguageTool", id: 1534275760
 mas "Microsoft Excel", id: 462058435
