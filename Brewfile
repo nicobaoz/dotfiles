@@ -30,6 +30,8 @@ brew "mongodb/brew/mongodb-community"
 cask "anydesk"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # Developer platform
 cask "dotnet-sdk"
 # HTTP and GraphQL Client
